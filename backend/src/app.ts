@@ -7,6 +7,7 @@ import corsOptions from '@/lib/cors.lib';
 import { logger } from '@/lib/logger.lib';
 import { getHealthStatus } from '@/lib/health.lib';
 import compressionMiddleware from '@/middlewares/compression.middleware';
+import { globalErrorHandler } from '@/middlewares/globalErrorHandeler.middleware';
 
 const app: Express = express();
 
@@ -31,5 +32,7 @@ app.get('/health', async (_, res) => {
   const httpStatus = health.status === 'OK' ? 200 : 503;
   res.status(httpStatus).json(health);
 });
+
+app.use(globalErrorHandler);
 
 export default app;

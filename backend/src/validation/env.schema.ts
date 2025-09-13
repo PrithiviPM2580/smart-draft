@@ -20,4 +20,8 @@ export const envSchema = z.object({
     },
     { message: 'Invalid URL' }
   ),
+  WHITELIST_ORIGINS: z
+    .string()
+    .default('http://localhost:5173')
+    .transform(val => val.split(',').map(origin => origin.trim())),
 });

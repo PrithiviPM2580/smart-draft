@@ -5,9 +5,9 @@ import cookieParser from 'cookie-parser';
 import cors from 'cors';
 import corsOptions from '@/lib/cors.lib';
 import { logger } from '@/lib/logger.lib';
-import { getHealthStatus } from '@/lib/health.lib';
 import compressionMiddleware from '@/middlewares/compression.middleware';
 import { globalErrorHandler } from '@/middlewares/globalErrorHandeler.middleware';
+import v1Routes from '@/routes/v1';
 
 const app: Express = express();
 
@@ -22,17 +22,7 @@ app.use(
     stream: { write: message => logger.info(message.trim()) },
   })
 );
-
-app.get('/', (_, res) => {
-  res.send('Hello from Smart Draft');
-});
-
-app.get('/health', async (_, res) => {
-  const health = await getHealthStatus();
-  const httpStatus = health.status === 'OK' ? 200 : 503;
-  res.status(httpStatus).json(health);
-});
-
+app.use('/api/v1', v1Routes);
 app.use(globalErrorHandler);
 
 export default app;

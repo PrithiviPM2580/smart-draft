@@ -9,3 +9,16 @@
 {"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-13T12:15:09.397Z"}
 {"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-13T12:15:09.407Z"}
 {"level":"info","message":"Disconnected from database successfully","service":"smart-draft-app","timestamp":"2025-09-13T12:15:20.175Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-13T12:44:25.652Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-13T12:44:25.663Z"}
+{"level":"info","message":"::1 - - [13/Sep/2025:12:44:36 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"smart-draft-app","timestamp":"2025-09-13T12:44:36.502Z"}
+{"level":"info","message":"::1 - - [13/Sep/2025:12:44:59 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"smart-draft-app","timestamp":"2025-09-13T12:44:59.783Z"}
+{"level":"info","message":"::1 - - [13/Sep/2025:12:45:26 +0000] \"GET /api/ HTTP/1.1\" 200 22 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"smart-draft-app","timestamp":"2025-09-13T12:45:26.645Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-13T12:47:19.633Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-13T12:47:19.643Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-13T12:48:13.441Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-13T12:48:13.449Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-13T12:49:53.568Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-13T12:49:53.580Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-13T12:51:26.897Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-13T12:51:26.905Z"}

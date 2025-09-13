@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import { getHealthStatus } from '@/lib/health.lib';
-import authRoute from '@/routes/v1/auth.route';
+import authRoute from '@/routes/v1Route/auth.route';
 
 const router = Router();
 

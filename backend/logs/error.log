@@ -1,0 +1,1 @@
+{"error":{"message":"[\n  {\n    \"expected\": \"object\",\n    \"code\": \"invalid_type\",\n    \"path\": [],\n    \"message\": \"Invalid input: expected object, received undefined\"\n  }\n]","name":"ZodError"},"level":"error","message":"Unhandled Error:","service":"smart-draft-app","timestamp":"2025-09-13T20:21:55.438Z"}

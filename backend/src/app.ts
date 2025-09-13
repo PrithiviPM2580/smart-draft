@@ -7,7 +7,7 @@ import corsOptions from '@/lib/cors.lib';
 import { logger } from '@/lib/logger.lib';
 import compressionMiddleware from '@/middlewares/compression.middleware';
 import { globalErrorHandler } from '@/middlewares/globalErrorHandeler.middleware';
-import v1Routes from '@/routes/v1';
+import v1Routes from '@/routes/v1Route';
 
 const app: Express = express();
 

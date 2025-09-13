@@ -24,4 +24,13 @@ export const envSchema = z.object({
     .string()
     .default('http://localhost:5173')
     .transform(val => val.split(',').map(origin => origin.trim())),
+  WHITELIST_ADMINS_MAIL: z.email().optional(),
+  JWT_ACCESS_SECRET: z
+    .string()
+    .min(32, 'JWT Access Secret must be at least 32 characters long'),
+  JWT_REFRESH_SECRET: z
+    .string()
+    .min(32, 'JWT Refresh Secret must be at least 32 characters long'),
+  JWT_ACCESS_EXPIRATION: z.string().default('15m'),
+  JWT_REFRESH_EXPIRATION: z.string().default('7d'),
 });

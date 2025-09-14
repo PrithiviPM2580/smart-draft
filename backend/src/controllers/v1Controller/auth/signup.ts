@@ -3,7 +3,6 @@ import type { ISignup } from '@/validation/auth.schema';
 import { signupSchema } from '@/validation/auth.schema';
 import { config } from '@/config/env';
 import { logger } from '@/lib/logger.lib';
-import { getUsername } from '@/utils/getUsername.utils';
 import User from '@/models/user.model';
 import { ApiError } from '@/utils/apiError.utils';
 import { generateAccessToken } from '@/lib/jwt.lib';
@@ -16,7 +15,7 @@ const signup = async (
   next: NextFunction
 ): Promise<void> => {
   const parsed: ISignup = await signupSchema.parseAsync(req.body);
-  const { email, password, role } = parsed;
+  const { username, email, password, role } = parsed;
 
   if (role === 'admin' && !config.WHITELIST_ADMINS_MAIL?.includes(email)) {
     logger.warn(`Unauthorized admin signup attempt with email: ${email}`);
@@ -28,7 +27,6 @@ const signup = async (
     );
   }
   try {
-    const username = getUsername();
     const newUser = await User.create({
       username,
       email,

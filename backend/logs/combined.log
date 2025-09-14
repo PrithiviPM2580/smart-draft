@@ -142,3 +142,58 @@
 {"level":"info","message":"::1 - - [13/Sep/2025:20:21:55 +0000] \"POST /api/v1/auth/signup HTTP/1.1\" 500 63 \"-\" \"PostmanRuntime/7.45.0\"","service":"smart-draft-app","timestamp":"2025-09-13T20:21:55.448Z"}
 {"email":"prithivi@gmail.com","level":"info","message":"User registered successfully","role":"user","service":"smart-draft-app","timestamp":"2025-09-13T20:24:08.151Z","userId":"68c5d2e729b032eb3b332210","username":"user-04qxa5oihqj5"}
 {"level":"info","message":"::1 - - [13/Sep/2025:20:24:08 +0000] \"POST /api/v1/auth/signup HTTP/1.1\" 201 399 \"-\" \"PostmanRuntime/7.45.0\"","service":"smart-draft-app","timestamp":"2025-09-13T20:24:08.153Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T13:50:12.806Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T13:50:12.821Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T13:57:00.939Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T13:57:00.954Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T13:59:15.360Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T13:59:15.369Z"}
+{"error":{"message":"[\n  {\n    \"origin\": \"string\",\n    \"code\": \"too_small\",\n    \"minimum\": 10,\n    \"inclusive\": true,\n    \"path\": [\n      \"username\"\n    ],\n    \"message\": \"Username must be at least 10 characters long\"\n  }\n]","name":"ZodError"},"level":"error","message":"Unhandled Error:","service":"smart-draft-app","timestamp":"2025-09-14T14:00:42.947Z"}
+{"level":"info","message":"::1 - - [14/Sep/2025:14:00:42 +0000] \"POST /api/v1/auth/signup HTTP/1.1\" 500 63 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-14T14:00:42.958Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T14:01:42.850Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T14:01:42.857Z"}
+{"error":{"_message":"User validation failed","errors":{"username":{"kind":"minlength","message":"Username must be at least 10 characters","name":"ValidatorError","path":"username","properties":{"length":8,"message":"Username must be at least 10 characters","minlength":10,"path":"username","type":"minlength","value":"Prithivi"},"value":"Prithivi"}},"message":"User validation failed: username: Username must be at least 10 characters","name":"ValidationError"},"level":"error","message":"Error during user signup","service":"smart-draft-app","timestamp":"2025-09-14T14:01:46.086Z"}
+{"error":{"_message":"User validation failed","errors":{"username":{"kind":"minlength","message":"Username must be at least 10 characters","name":"ValidatorError","path":"username","properties":{"length":8,"message":"Username must be at least 10 characters","minlength":10,"path":"username","type":"minlength","value":"Prithivi"},"value":"Prithivi"}},"message":"User validation failed: username: Username must be at least 10 characters","name":"ValidationError"},"level":"error","message":"Unhandled Error:","service":"smart-draft-app","timestamp":"2025-09-14T14:01:46.095Z"}
+{"level":"info","message":"::1 - - [14/Sep/2025:14:01:46 +0000] \"POST /api/v1/auth/signup HTTP/1.1\" 500 63 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-14T14:01:46.117Z"}
+{"error":{"_message":"User validation failed","errors":{"username":{"kind":"minlength","message":"Username must be at least 10 characters","name":"ValidatorError","path":"username","properties":{"length":8,"message":"Username must be at least 10 characters","minlength":10,"path":"username","type":"minlength","value":"Prithivi"},"value":"Prithivi"}},"message":"User validation failed: username: Username must be at least 10 characters","name":"ValidationError"},"level":"error","message":"Error during user signup","service":"smart-draft-app","timestamp":"2025-09-14T14:03:00.670Z"}
+{"error":{"_message":"User validation failed","errors":{"username":{"kind":"minlength","message":"Username must be at least 10 characters","name":"ValidatorError","path":"username","properties":{"length":8,"message":"Username must be at least 10 characters","minlength":10,"path":"username","type":"minlength","value":"Prithivi"},"value":"Prithivi"}},"message":"User validation failed: username: Username must be at least 10 characters","name":"ValidationError"},"level":"error","message":"Unhandled Error:","service":"smart-draft-app","timestamp":"2025-09-14T14:03:00.674Z"}
+{"level":"info","message":"::1 - - [14/Sep/2025:14:03:00 +0000] \"POST /api/v1/auth/signup HTTP/1.1\" 500 63 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-14T14:03:00.679Z"}
+{"level":"info","message":"Disconnected from database successfully","service":"smart-draft-app","timestamp":"2025-09-14T14:03:21.908Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T14:03:34.232Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T14:03:34.239Z"}
+{"error":{"_message":"User validation failed","errors":{"username":{"kind":"minlength","message":"Username must be at least 10 characters","name":"ValidatorError","path":"username","properties":{"length":8,"message":"Username must be at least 10 characters","minlength":10,"path":"username","type":"minlength","value":"Prithivi"},"value":"Prithivi"}},"message":"User validation failed: username: Username must be at least 10 characters","name":"ValidationError"},"level":"error","message":"Error during user signup","service":"smart-draft-app","timestamp":"2025-09-14T14:04:51.506Z"}
+{"error":{"_message":"User validation failed","errors":{"username":{"kind":"minlength","message":"Username must be at least 10 characters","name":"ValidatorError","path":"username","properties":{"length":8,"message":"Username must be at least 10 characters","minlength":10,"path":"username","type":"minlength","value":"Prithivi"},"value":"Prithivi"}},"message":"User validation failed: username: Username must be at least 10 characters","name":"ValidationError"},"level":"error","message":"Unhandled Error:","service":"smart-draft-app","timestamp":"2025-09-14T14:04:51.510Z"}
+{"level":"info","message":"::1 - - [14/Sep/2025:14:04:51 +0000] \"POST /api/v1/auth/signup HTTP/1.1\" 500 63 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-14T14:04:51.530Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T14:05:38.809Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T14:05:38.823Z"}
+{"email":"prithivi@gmail.com","level":"info","message":"User registered successfully","role":"user","service":"smart-draft-app","timestamp":"2025-09-14T14:05:49.100Z","userId":"68c6cbbc387aab4ee0a27d35","username":"Prithivi"}
+{"level":"info","message":"::1 - - [14/Sep/2025:14:05:49 +0000] \"POST /api/v1/auth/signup HTTP/1.1\" 201 390 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-14T14:05:49.103Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T14:07:40.630Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T14:07:40.639Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T14:08:28.224Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T14:08:28.235Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T14:09:27.244Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T14:09:27.259Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T14:12:23.724Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T14:12:23.737Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T14:14:26.123Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T14:14:26.135Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T14:17:49.263Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T14:17:49.271Z"}
+{"email":"prithivi@gmail.com","level":"info","message":"User logged in successfully","role":"user","service":"smart-draft-app","timestamp":"2025-09-14T14:19:37.346Z","userId":"68c6cbbc387aab4ee0a27d35","username":"Prithivi"}
+{"level":"info","message":"::1 - - [14/Sep/2025:14:19:37 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 389 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-14T14:19:37.354Z"}
+{"level":"info","message":"Disconnected from database successfully","service":"smart-draft-app","timestamp":"2025-09-14T14:25:18.806Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T19:13:33.169Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T19:13:33.181Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T19:14:43.464Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T19:14:43.477Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T19:19:09.169Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T19:19:09.179Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T19:20:01.829Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T19:20:01.838Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T19:20:14.096Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T19:20:14.103Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T19:23:51.732Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T19:23:51.739Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T19:24:03.953Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T19:24:03.962Z"}

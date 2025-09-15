@@ -197,3 +197,29 @@
 {"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T19:23:51.739Z"}
 {"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T19:24:03.953Z"}
 {"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T19:24:03.962Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T19:26:10.887Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T19:26:10.893Z"}
+{"email":"prithivi@gmail.com","level":"info","message":"User logged in successfully","role":"user","service":"smart-draft-app","timestamp":"2025-09-14T19:26:49.367Z","userId":"68c6cbbc387aab4ee0a27d35","username":"Prithivi"}
+{"level":"info","message":"::1 - - [14/Sep/2025:19:26:49 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 389 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-14T19:26:49.372Z"}
+{"level":"info","message":"::1 - - [14/Sep/2025:19:26:54 +0000] \"POST /api/auth/logout HTTP/1.1\" 404 155 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-14T19:26:54.826Z"}
+{"email":"prithivi@gmail.com","level":"info","message":"User logged in successfully","role":"user","service":"smart-draft-app","timestamp":"2025-09-14T19:27:56.354Z","userId":"68c6cbbc387aab4ee0a27d35","username":"Prithivi"}
+{"level":"info","message":"::1 - - [14/Sep/2025:19:27:56 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 389 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-14T19:27:56.355Z"}
+{"level":"info","message":"::1 - - [14/Sep/2025:19:29:30 +0000] \"POST /api/auth/logout HTTP/1.1\" 404 155 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-14T19:29:30.773Z"}
+{"level":"info","message":"::1 - - [14/Sep/2025:19:30:38 +0000] \"POST /api/auth/logout HTTP/1.1\" 404 155 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-14T19:30:38.965Z"}
+{"level":"info","message":"Refresh token deleted successfully","service":"smart-draft-app","timestamp":"2025-09-14T19:31:10.953Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGM2Y2JiYzM4N2FhYjRlZTBhMjdkMzUiLCJpYXQiOjE3NTc4NzgwNzYsImV4cCI6MTc1Nzg3ODk3Niwic3ViIjoiYWNjZXNzQXBpIn0.SL8Gvp1mRD03H4ja8MVYsV9sFHinGkUY_CfCZIhaElI","userId":"68c6cbbc387aab4ee0a27d35"}
+{"level":"info","message":"User logged out successfully","service":"smart-draft-app","timestamp":"2025-09-14T19:31:10.958Z","userId":"68c6cbbc387aab4ee0a27d35"}
+{"level":"info","message":"::1 - - [14/Sep/2025:19:31:10 +0000] \"POST /api/v1/auth/logout HTTP/1.1\" 200 37 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-14T19:31:10.960Z"}
+{"email":"prithivi@gmail.com","level":"info","message":"User registered successfully","role":"user","service":"smart-draft-app","timestamp":"2025-09-14T19:32:11.227Z","userId":"68c7183a49c4c2f92670d7e8","username":"Prithivi"}
+{"level":"info","message":"::1 - - [14/Sep/2025:19:32:11 +0000] \"POST /api/v1/auth/signup HTTP/1.1\" 201 390 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-14T19:32:11.228Z"}
+{"level":"info","message":"Refresh token deleted successfully","service":"smart-draft-app","timestamp":"2025-09-14T19:32:50.131Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGM3MTgzYTQ5YzRjMmY5MjY3MGQ3ZTgiLCJpYXQiOjE3NTc4NzgzMzEsImV4cCI6MTc1Nzg3OTIzMSwic3ViIjoiYWNjZXNzQXBpIn0.EBVYdAQuaL5qHlnhsKmOw73iKZUtYlk47tQKlXTtchk","userId":"68c6cbbc387aab4ee0a27d35"}
+{"level":"info","message":"User logged out successfully","service":"smart-draft-app","timestamp":"2025-09-14T19:32:50.133Z","userId":"68c6cbbc387aab4ee0a27d35"}
+{"level":"info","message":"::1 - - [14/Sep/2025:19:32:50 +0000] \"POST /api/v1/auth/logout HTTP/1.1\" 200 37 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-14T19:32:50.134Z"}
+{"email":"prithivi@gmail.com","level":"info","message":"User registered successfully","role":"user","service":"smart-draft-app","timestamp":"2025-09-14T19:33:30.511Z","userId":"68c7188a49c4c2f92670d7ef","username":"Prithivi"}
+{"level":"info","message":"::1 - - [14/Sep/2025:19:33:30 +0000] \"POST /api/v1/auth/signup HTTP/1.1\" 201 390 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-14T19:33:30.512Z"}
+{"level":"info","message":"Refresh token deleted successfully","service":"smart-draft-app","timestamp":"2025-09-14T19:33:45.577Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGM3MTg4YTQ5YzRjMmY5MjY3MGQ3ZWYiLCJpYXQiOjE3NTc4Nzg0MTAsImV4cCI6MTc1Nzg3OTMxMCwic3ViIjoiYWNjZXNzQXBpIn0.J9yO6nfSYnt25H-dUWRmKxbBTLtgpeGc1KQFftz3JZA","userId":"68c6cbbc387aab4ee0a27d35"}
+{"level":"info","message":"User logged out successfully","service":"smart-draft-app","timestamp":"2025-09-14T19:33:45.580Z","userId":"68c6cbbc387aab4ee0a27d35"}
+{"level":"info","message":"::1 - - [14/Sep/2025:19:33:45 +0000] \"POST /api/v1/auth/logout HTTP/1.1\" 200 37 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-14T19:33:45.581Z"}
+{"email":"prithivi@gmail.com","level":"info","message":"User logged in successfully","role":"user","service":"smart-draft-app","timestamp":"2025-09-14T19:34:02.223Z","userId":"68c7188a49c4c2f92670d7ef","username":"Prithivi"}
+{"level":"info","message":"::1 - - [14/Sep/2025:19:34:02 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 389 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-14T19:34:02.225Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T19:36:06.121Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T19:36:06.130Z"}

@@ -33,4 +33,9 @@ export const envSchema = z.object({
     .min(32, 'JWT Refresh Secret must be at least 32 characters long'),
   JWT_ACCESS_EXPIRATION: z.string().default('15m'),
   JWT_REFRESH_EXPIRATION: z.string().default('7d'),
+  IMAGEKIT_PUBLIC_KEY: z.string().min(10, 'Invalid Imagekit Public Key'),
+  IMAGEKIT_PRIVATE_KEY: z.string().min(10, 'Invalid Imagekit Private Key'),
+  IMAGEKIT_URL_ENDPOINT: z
+    .url('Invalid Imagekit URL Endpoint')
+    .min(10, 'Invalid Imagekit URL Endpoint'),
 });

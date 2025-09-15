@@ -223,3 +223,30 @@
 {"level":"info","message":"::1 - - [14/Sep/2025:19:34:02 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 389 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-14T19:34:02.225Z"}
 {"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-14T19:36:06.121Z"}
 {"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-14T19:36:06.130Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-15T08:47:05.770Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-15T08:47:05.791Z"}
+{"email":"prithivi@gmail.com","level":"info","message":"User logged in successfully","role":"user","service":"smart-draft-app","timestamp":"2025-09-15T08:47:14.110Z","userId":"68c7188a49c4c2f92670d7ef","username":"Prithivi"}
+{"level":"info","message":"::1 - - [15/Sep/2025:08:47:14 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 389 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-15T08:47:14.112Z"}
+{"error":{"message":"[\n  {\n    \"expected\": \"object\",\n    \"code\": \"invalid_type\",\n    \"path\": [],\n    \"message\": \"Invalid input: expected object, received undefined\"\n  }\n]","name":"ZodError"},"level":"error","message":"Unhandled Error:","service":"smart-draft-app","timestamp":"2025-09-15T08:48:00.312Z"}
+{"level":"info","message":"::1 - - [15/Sep/2025:08:48:00 +0000] \"POST /api/v1/blog HTTP/1.1\" 500 63 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-15T08:48:00.315Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-15T08:52:33.174Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-15T08:52:33.181Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-15T08:53:33.252Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-15T08:53:33.260Z"}
+{"error":{"code":"MISSING_FIELD_NAME","message":"Field name missing","name":"MulterError","storageErrors":[]},"level":"error","message":"Unhandled Error:","service":"smart-draft-app","timestamp":"2025-09-15T08:53:42.763Z"}
+{"level":"info","message":"::1 - - [15/Sep/2025:08:53:42 +0000] \"POST /api/v1/blog HTTP/1.1\" 500 63 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-15T08:53:42.768Z"}
+{"error":{"message":"[\n  {\n    \"expected\": \"string\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"image\"\n    ],\n    \"message\": \"Invalid image URL\"\n  },\n  {\n    \"expected\": \"boolean\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"isPublished\"\n    ],\n    \"message\": \"Invalid input: expected boolean, received undefined\"\n  }\n]","name":"ZodError"},"level":"error","message":"Unhandled Error:","service":"smart-draft-app","timestamp":"2025-09-15T08:57:38.171Z"}
+{"level":"info","message":"::1 - - [15/Sep/2025:08:57:38 +0000] \"POST /api/v1/blog HTTP/1.1\" 500 63 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-15T08:57:38.174Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-15T09:00:16.654Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-15T09:00:16.676Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-15T09:09:49.286Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-15T09:09:49.306Z"}
+{"email":"prithivi@gmail.com","level":"info","message":"User logged in successfully","role":"user","service":"smart-draft-app","timestamp":"2025-09-15T09:10:35.654Z","userId":"68c7188a49c4c2f92670d7ef","username":"Prithivi"}
+{"level":"info","message":"::1 - - [15/Sep/2025:09:10:35 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 389 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-15T09:10:35.657Z"}
+{"error":{"message":"[\n  {\n    \"expected\": \"boolean\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"isPublished\"\n    ],\n    \"message\": \"Invalid input: expected boolean, received undefined\"\n  }\n]","name":"ZodError"},"level":"error","message":"Unhandled Error:","service":"smart-draft-app","timestamp":"2025-09-15T09:11:14.887Z"}
+{"level":"info","message":"::1 - - [15/Sep/2025:09:11:14 +0000] \"POST /api/v1/blog HTTP/1.1\" 500 63 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-15T09:11:14.891Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-15T09:12:52.153Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-15T09:12:52.161Z"}
+{"blogId":"68c7d89feede53df5cbbaf7f","category":"Blog hero","isPublished":false,"level":"info","message":"Blog created successfully","service":"smart-draft-app","timestamp":"2025-09-15T09:13:03.334Z","title":"Blog 1"}
+{"level":"info","message":"::1 - - [15/Sep/2025:09:13:03 +0000] \"POST /api/v1/blog HTTP/1.1\" 201 400 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-15T09:13:03.338Z"}
+{"level":"info","message":"Disconnected from database successfully","service":"smart-draft-app","timestamp":"2025-09-15T09:15:04.529Z"}

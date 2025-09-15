@@ -1,6 +1,7 @@
 import { Router } from 'express';
 import { getHealthStatus } from '@/lib/health.lib';
 import authRoute from '@/routes/v1Route/auth.route';
+import blogRoute from '@/routes/v1Route/blog.route';
 
 const router = Router();
 
@@ -15,5 +16,6 @@ router.get('/health', async (_, res) => {
 });
 
 router.use('/auth', authRoute);
+router.use('/blog', blogRoute);
 
 export default router;

@@ -1,5 +1,4 @@
 import { blogSchema } from '@/validation/blog.schema';
-import type { IBlog } from '@/models/blog.model';
 import type { Request, Response, NextFunction } from 'express';
 import fs from 'fs';
 import { logger } from '@/lib/logger.lib';
@@ -13,28 +12,33 @@ const createBlog = async (
   next: NextFunction
 ): Promise<void> => {
   try {
-    const parsed: IBlog = await blogSchema.parseAsync(req.body);
-    const { title, subTitle, description, category, isPublished } = parsed;
+    // Validate only text fields first
+    const parsed = await blogSchema.parseAsync(req.body);
+    const { title, subTitle, description, category } = parsed;
 
     if (!req.file) {
-      return next(new ApiError(400, 'No file uploaded'));
+      return next(new ApiError(400, 'No image file uploaded'));
     }
 
-    const imagefile = req.file;
+    // Read and upload image
+    const imageBuffer = fs.readFileSync(req.file.path);
+    const response = await uploadImage(imageBuffer, req.file.originalname);
+    fs.unlinkSync(req.file.path); // clean up local file
 
-    const imageBuffer = fs.readFileSync(imagefile.path);
-    const response = await uploadImage(imageBuffer, imagefile.originalname);
-    const optimizedImage = imageUrl(response);
+    if (!response) {
+      return next(new ApiError(500, 'Image upload failed'));
+    }
 
-    const image = optimizedImage;
+    const image = imageUrl(response);
 
+    // Save blog
     const newBlog = await Blog.create({
       title,
       subTitle,
       description,
       category,
       image,
-      isPublished,
+      isPublished: parsed.isPublished ?? false,
     });
 
     res.status(201).json({

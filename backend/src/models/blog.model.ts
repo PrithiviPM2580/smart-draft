@@ -37,7 +37,7 @@ const blogSchema = new Schema<IBlog>(
     },
     isPublished: {
       type: Boolean,
-      required: true,
+      default: false,
     },
   },
   { timestamps: true }

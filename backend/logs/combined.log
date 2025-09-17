@@ -286,3 +286,33 @@
 {"level":"info","message":"::1 - - [17/Sep/2025:15:28:19 +0000] \"GET /api/v1/blog/68cad0d9623ef102a8b1008d HTTP/1.1\" 200 396 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-17T15:28:19.452Z"}
 {"blog":{"__v":0,"_id":"68cad0b9623ef102a8b1008b","category":"Blog hero1","createdAt":"2025-09-17T15:16:09.368Z","description":"Blog is a hero1","image":"https://ik.imagekit.io/sovqhiqyn/tr:q-auto:f-webp:w-1024/blog-images/prompt-vault_Yu_4t9U-S.png","isPublished":true,"subTitle":"Blog 11","title":"Blog 1","updatedAt":"2025-09-17T15:16:09.368Z"},"level":"info","message":"Blog with ID: 68cad0b9623ef102a8b1008b retrieved successfully","service":"smart-draft-app","timestamp":"2025-09-17T15:28:45.111Z"}
 {"level":"info","message":"::1 - - [17/Sep/2025:15:28:45 +0000] \"GET /api/v1/blog/68cad0b9623ef102a8b1008b HTTP/1.1\" 200 403 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-17T15:28:45.114Z"}
+{"level":"info","message":"Disconnected from database successfully","service":"smart-draft-app","timestamp":"2025-09-17T15:44:42.903Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-17T17:45:00.612Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-17T17:45:00.633Z"}
+{"email":"prithivi@gmail.com","level":"info","message":"User logged in successfully","role":"user","service":"smart-draft-app","timestamp":"2025-09-17T17:45:20.889Z","userId":"68c7188a49c4c2f92670d7ef","username":"Prithivi"}
+{"level":"info","message":"::1 - - [17/Sep/2025:17:45:20 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 389 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-17T17:45:20.893Z"}
+{"blogs":[{"__v":0,"_id":"68cad0b9623ef102a8b1008b","category":"Blog hero1","createdAt":"2025-09-17T15:16:09.368Z","description":"Blog is a hero1","image":"https://ik.imagekit.io/sovqhiqyn/tr:q-auto:f-webp:w-1024/blog-images/prompt-vault_Yu_4t9U-S.png","isPublished":true,"subTitle":"Blog 11","title":"Blog 1","updatedAt":"2025-09-17T15:16:09.368Z"},{"__v":0,"_id":"68cad0d9623ef102a8b1008d","category":"Blog hero2","createdAt":"2025-09-17T15:16:41.152Z","description":"Blog is a hero1","image":"https://ik.imagekit.io/sovqhiqyn/tr:q-auto:f-webp:w-1024/blog-images/img8_bcm8IxyYvc.png","isPublished":true,"subTitle":"Blog 22","title":"Blog 2","updatedAt":"2025-09-17T15:16:41.152Z"}],"level":"info","message":"Blogs retrieved successfully Blogs fetched","service":"smart-draft-app","timestamp":"2025-09-17T17:45:56.220Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:17:45:56 +0000] \"GET /api/v1/blog HTTP/1.1\" 200 740 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-17T17:45:56.224Z"}
+{"level":"info","message":"Blog with ID 68cad0b9623ef102a8b1008b deleted successfully","service":"smart-draft-app","timestamp":"2025-09-17T17:46:12.409Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:17:46:12 +0000] \"DELETE /api/v1/blog/68cad0b9623ef102a8b1008b HTTP/1.1\" 200 39 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-17T17:46:12.411Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-17T17:48:53.132Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-17T17:48:53.146Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-17T17:54:09.340Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-17T17:54:09.350Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-17T17:54:43.740Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-17T17:54:43.750Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-17T17:55:01.722Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-17T17:55:01.730Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-17T17:55:31.412Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-17T17:55:31.421Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-17T17:55:45.522Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-17T17:55:45.530Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-17T17:57:28.823Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-17T17:57:28.832Z"}
+{"blogs":[{"__v":0,"_id":"68cad0d9623ef102a8b1008d","category":"Blog hero2","createdAt":"2025-09-17T15:16:41.152Z","description":"Blog is a hero1","image":"https://ik.imagekit.io/sovqhiqyn/tr:q-auto:f-webp:w-1024/blog-images/img8_bcm8IxyYvc.png","isPublished":true,"subTitle":"Blog 22","title":"Blog 2","updatedAt":"2025-09-17T15:16:41.152Z"}],"level":"info","message":"Blogs retrieved successfully Blogs fetched","service":"smart-draft-app","timestamp":"2025-09-17T17:58:11.859Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:17:58:11 +0000] \"GET /api/v1/blog HTTP/1.1\" 200 400 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-17T17:58:11.864Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:17:58:34 +0000] \"PATCH /api/v1/blog/68cad0d9623ef102a8b1008d/toggle-status HTTP/1.1\" 401 48 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-17T17:58:34.574Z"}
+{"level":"info","message":"Blog with ID 68cad0d9623ef102a8b1008d toggled publish status successfully","service":"smart-draft-app","timestamp":"2025-09-17T17:59:09.443Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:17:59:09 +0000] \"PATCH /api/v1/blog/68cad0d9623ef102a8b1008d/toggle-status HTTP/1.1\" 200 384 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-17T17:59:09.444Z"}
+{"level":"info","message":"Blog with ID 68cad0d9623ef102a8b1008d toggled publish status successfully","service":"smart-draft-app","timestamp":"2025-09-17T17:59:30.162Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:17:59:30 +0000] \"PATCH /api/v1/blog/68cad0d9623ef102a8b1008d/toggle-status HTTP/1.1\" 200 381 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-17T17:59:30.164Z"}

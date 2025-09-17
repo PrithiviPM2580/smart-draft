@@ -9,6 +9,7 @@ declare global {
       userId?: Types.ObjectId;
       file?: Express.Multer.File;
       files?: Express.Multer.File[];
+      params?: Express.Request['params'] & { id?: string };
     }
   }
 }

@@ -316,3 +316,13 @@
 {"level":"info","message":"::1 - - [17/Sep/2025:17:59:09 +0000] \"PATCH /api/v1/blog/68cad0d9623ef102a8b1008d/toggle-status HTTP/1.1\" 200 384 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-17T17:59:09.444Z"}
 {"level":"info","message":"Blog with ID 68cad0d9623ef102a8b1008d toggled publish status successfully","service":"smart-draft-app","timestamp":"2025-09-17T17:59:30.162Z"}
 {"level":"info","message":"::1 - - [17/Sep/2025:17:59:30 +0000] \"PATCH /api/v1/blog/68cad0d9623ef102a8b1008d/toggle-status HTTP/1.1\" 200 381 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-17T17:59:30.164Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-17T18:20:46.678Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-17T18:20:46.696Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-17T18:21:58.539Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-17T18:21:58.549Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-17T18:23:59.036Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-17T18:23:59.052Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-17T18:24:34.144Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-17T18:24:34.152Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-17T18:26:04.826Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-17T18:26:04.834Z"}

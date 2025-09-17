@@ -18,7 +18,7 @@ export const blogSchema = z.object({
     .min(3, { message: 'Category must be at least 3 characters long' })
     .max(50, { message: 'Category must be at most 50 characters long' }),
   image: z.url({ message: 'Invalid image URL' }).optional(),
-  isPublished: z.boolean().optional().default(false),
+  isPublished: z.boolean().optional().default(true),
 });
 
 export type IBlog = z.infer<typeof blogSchema>;

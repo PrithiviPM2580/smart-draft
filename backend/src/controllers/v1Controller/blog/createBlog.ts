@@ -14,7 +14,7 @@ const createBlog = async (
   try {
     // Validate only text fields first
     const parsed = await blogSchema.parseAsync(req.body);
-    const { title, subTitle, description, category } = parsed;
+    const { title, subTitle, description, category, isPublished } = parsed;
 
     if (!req.file) {
       return next(new ApiError(400, 'No image file uploaded'));
@@ -38,7 +38,7 @@ const createBlog = async (
       description,
       category,
       image,
-      isPublished: parsed.isPublished ?? false,
+      isPublished,
     });
 
     res.status(201).json({

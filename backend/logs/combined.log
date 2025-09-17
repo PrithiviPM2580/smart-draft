@@ -250,3 +250,14 @@
 {"blogId":"68c7d89feede53df5cbbaf7f","category":"Blog hero","isPublished":false,"level":"info","message":"Blog created successfully","service":"smart-draft-app","timestamp":"2025-09-15T09:13:03.334Z","title":"Blog 1"}
 {"level":"info","message":"::1 - - [15/Sep/2025:09:13:03 +0000] \"POST /api/v1/blog HTTP/1.1\" 201 400 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-15T09:13:03.338Z"}
 {"level":"info","message":"Disconnected from database successfully","service":"smart-draft-app","timestamp":"2025-09-15T09:15:04.529Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-17T15:12:21.804Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-17T15:12:21.815Z"}
+{"email":"prithivi@gmail.com","level":"info","message":"User logged in successfully","role":"user","service":"smart-draft-app","timestamp":"2025-09-17T15:12:37.046Z","userId":"68c7188a49c4c2f92670d7ef","username":"Prithivi"}
+{"level":"info","message":"::1 - - [17/Sep/2025:15:12:37 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 389 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-17T15:12:37.051Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:15:13:17 +0000] \"POST /api/v1/blog HTTP/1.1\" 401 54 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-17T15:13:17.754Z"}
+{"blogId":"68cad02f7473cdbeadf45d27","category":"Blog hero1","isPublished":false,"level":"info","message":"Blog created successfully","service":"smart-draft-app","timestamp":"2025-09-17T15:13:51.369Z","title":"Blog 2"}
+{"level":"info","message":"::1 - - [17/Sep/2025:15:13:51 +0000] \"POST /api/v1/blog HTTP/1.1\" 201 402 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-17T15:13:51.372Z"}
+{"blogs":[],"level":"info","message":"Blogs retrieved successfully Blogs fetched","service":"smart-draft-app","timestamp":"2025-09-17T15:14:25.422Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:15:14:25 +0000] \"GET /api/v1/blog HTTP/1.1\" 200 68 \"-\" \"PostmanRuntime/7.46.0\"","service":"smart-draft-app","timestamp":"2025-09-17T15:14:25.425Z"}
+{"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-17T15:15:36.086Z"}
+{"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-17T15:15:36.096Z"}

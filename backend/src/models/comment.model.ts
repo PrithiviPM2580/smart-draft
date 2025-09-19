@@ -5,8 +5,9 @@ export interface IComment {
   blogId: Types.ObjectId;
   name: string;
   content: string;
-  isApproves: boolean;
+  isApproved: boolean;
 }
+
 const commentSchema = new Schema<IComment>({
   blogId: {
     type: Schema.Types.ObjectId,
@@ -21,7 +22,7 @@ const commentSchema = new Schema<IComment>({
     type: String,
     required: true,
   },
-  isApproves: {
+  isApproved: {
     type: Boolean,
     default: false,
   },

@@ -326,3 +326,4 @@
 {"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-17T18:24:34.152Z"}
 {"level":"info","message":"Connected to database successfully","service":"smart-draft-app","timestamp":"2025-09-17T18:26:04.826Z"}
 {"level":"info","message":"Server running on port 3000","service":"smart-draft-app","timestamp":"2025-09-17T18:26:04.834Z"}
+{"level":"info","message":"Disconnected from database successfully","service":"smart-draft-app","timestamp":"2025-09-17T18:26:46.024Z"}
